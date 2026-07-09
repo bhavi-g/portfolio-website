@@ -33,7 +33,7 @@ export const site = {
     "Waterloo CS × AI Specialization Currently building at Communitech",
   description:
     "Portfolio of Bhavish Goyal, AI Software Developer — neural network and LLM training, applied ML, and full-stack AI products.",
-  url: "https://bhavishgoyal.dev", // TODO: replace with the deployed URL
+  url: "https://goyal-bhavish.vercel.app",
 };
 
 export const navLinks: NavLink[] = [

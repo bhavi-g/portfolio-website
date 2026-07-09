@@ -18,12 +18,19 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(site.url),
   title: `${site.name} — ${site.role}`,
   description: site.description,
   openGraph: {
     title: `${site.name} — ${site.role}`,
     description: site.description,
+    url: site.url,
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${site.name} — ${site.role}`,
+    description: site.description,
   },
 };
 
